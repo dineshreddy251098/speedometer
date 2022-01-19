@@ -1,0 +1,58 @@
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+.img {
+  height: 30%;
+  margin: 20px;
+}
+.sub-heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+.tag-line {
+  color: #ffffff;
+  font-family: 'roboto';
+  text-align: center;
+  font-size: 16px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-accelerate {
+  border-radius: 4px;
+  padding: 8px;
+  color: #ffffff;
+  font-family: 'roboto';
+  background-color: #0b69ff;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.btn-brake {
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px;
+  color: #cbd5e1;
+  font-family: 'roboto';
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+}
